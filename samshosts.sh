@@ -1,4 +1,6 @@
 printf "\n# Sam's Hosts Collection\n" > hosts
+printf "\n127.0.0.1  localhost\n" >> hosts
+printf "\n::1  localhost\n" >> hosts
 curl https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/hosts/pro.txt >> hosts
 printf "\n" >> hosts
 curl https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts >> hosts
