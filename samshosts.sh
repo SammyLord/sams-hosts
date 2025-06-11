@@ -10,4 +10,6 @@ printf "\n" >> hosts
 crul https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Spotify-AdBlock.txt >> hosts
 printf "\n" >> hosts
 curl https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-YouTube-AdBlock.txt >> hosts
+printf "\n" >> hosts
+curl https://raw.githubusercontent.com/SammyLord/NSA-CIA-Blocklist-trimmedhosts/refs/heads/main/HOSTS/HOSTS >> hosts
 printf "\n # END OF Sam's Hosts" >> hosts
